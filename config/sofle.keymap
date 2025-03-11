@@ -28,6 +28,40 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        homerow-open-round {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <25 26>;
+        };
+
+        homerow-close-round {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <28 27>;
+        };
+
+        homerow-open-curly {
+            bindings = <&kp LEFT_BRACE>;
+            key-positions = <31 32>;
+        };
+
+        homerow-close-curly {
+            bindings = <&kp RIGHT_BRACE>;
+            key-positions = <33 34>;
+        };
+
+        homerow-open-square {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <26 27>;
+        };
+
+        homerow-close-square {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <32 33>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
