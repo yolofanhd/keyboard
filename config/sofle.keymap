@@ -90,6 +90,7 @@
             display-name = "lower";
 
             // TODO: Some binds are waiting for shifted keycode support.
+            //
             // ------------------------------------------------------------------------------------------------------------
             // | |      |      |       |       |      |                   |  F7  |  F8   |  F9   |  F10  |  F11 |  F12  |
             // | | INS  | PSCR | GUI   |       |      |                   |  6   |  7    |  8    |  9   |   0   |   |   |
